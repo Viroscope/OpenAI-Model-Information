@@ -3,7 +3,6 @@ import requests
 from datetime import datetime
 
 from dotenv import dotenv_values
-env_vars = dotenv_values('.env')
 
 BASE_URL = "https://api.openai.com/v1/models"
 API_KEY = "Key"
